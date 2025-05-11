@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 8.0.42, for Win64 (x86_64)
+
 --
 -- Host: localhost    Database: m4_prog
 -- ------------------------------------------------------
@@ -16,30 +16,30 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `huisdieren`
+-- Table structure for table `mario game cover`
 --
 
-DROP TABLE IF EXISTS `huisdieren`;
+DROP TABLE IF EXISTS `mario game cover`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `huisdieren` (
-  `idHuisdieren` int NOT NULL,
-  `Naam` varchar(150) NOT NULL,
-  `eigenaar` varchar(150) NOT NULL,
-  `typedier` varchar(80) NOT NULL,
-  `leeftijd` int NOT NULL,
-  `geboortedatum` date NOT NULL,
-  PRIMARY KEY (`idHuisdieren`)
+CREATE TABLE `mario game cover` (
+  `Mario Bros` varchar(45) NOT NULL,
+  `beshrijving` varchar(150) NOT NULL,
+  `Plaatjes` int NOT NULL,
+  `Directors` varchar(45) NOT NULL,
+  `Welke talen` varchar(35) NOT NULL,
+  `leeftijdscategorie` varchar(45) NOT NULL,
+  PRIMARY KEY (`Mario Bros`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `huisdieren`
+-- Dumping data for table `mario game cover`
 --
 
-LOCK TABLES `huisdieren` WRITE;
-/*!40000 ALTER TABLE `huisdieren` DISABLE KEYS */;
-/*!40000 ALTER TABLE `huisdieren` ENABLE KEYS */;
+LOCK TABLES `mario game cover` WRITE;
+/*!40000 ALTER TABLE `mario game cover` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mario game cover` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-05-09 10:20:52
+-- Dump completed on 2025-05-11 19:23:17
