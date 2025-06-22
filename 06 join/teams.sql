@@ -30,13 +30,12 @@ INSERT INTO teamlid (voornaam, achternaam, teamid) VALUES
 ('wario','waa',2),
 ('bowser','the great',2),
 
--- Team 3
 ('goomba','1',3),
 ('goomba','2',3),
 ('goomba','3',3),
 ('goomba','4',3),
 
--- Team 4
+
 ('toad','1',4),
 ('toad','2',4),
 ('toad','3',4),
